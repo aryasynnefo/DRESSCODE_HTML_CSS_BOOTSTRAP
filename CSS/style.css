@@ -1,0 +1,133 @@
+
+/* navbar and image */
+.home_img{
+    background-image: url(../IMAGES/new\ dark\ wmns.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    width: 100%;
+    letter-spacing: 1px;
+}
+
+.a{
+    width:70px;
+    height: auto;
+}   
+
+.a1{
+    font-size: 12px;
+}
+.nav-bar{
+    text-align: center;
+    padding: 180px;
+}
+
+.div1{
+    font-size:50px;
+    letter-spacing: 1px;
+}
+
+.b1{
+    margin-right: 10px;
+    letter-spacing: 2px;
+    width: 180px;
+    padding: 10px;
+    text-align: center;
+    color:white;
+    background: transparent;
+    border: 1px white solid;
+    border-radius: 2px;
+    margin-top: 30px;
+    border-radius: 20px;
+
+}
+
+.b2{
+    margin-left: 10px;
+    letter-spacing: 2px;
+    width: 180px;
+    padding: 10px;
+    text-align: center;
+    color:white;
+    background:transparent;
+    border:1px white solid;
+    border-radius: 2px;
+    border-radius: 20px;
+}
+
+.b1:hover , .b2:hover{
+    background-color:peru;    
+}   
+
+
+
+/* search icon */
+.sb{
+    padding: 10px;
+    
+}
+
+
+
+/* offer */
+.image1{
+    background-image: url(../IMAGES/mens\ new.png);
+    background-size: cover;
+    background-attachment: fixed;
+    width:100%;
+   height: 600px;
+   
+}
+
+
+
+.div2{
+    padding: 200px;
+}
+
+.head1{
+    font-size: 100px;
+
+}
+
+.para{
+    font-size: 20px;
+}
+
+.rimg{
+    width: 400px;
+    height: 300px;
+}
+
+.r1{
+   
+    margin-left: 400px;
+}
+
+
+.img1{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+ 
+.shirts{
+    background-color: whitesmoke;
+}
+
+.rimg{
+    border-image: round; 
+    border-radius: 60px;
+    height: 100px;
+    width: 80px;
+}
+
+
+.cp{
+    padding-left: 100px;
+}
+
+.caro_img{
+    background-image: url(../IMAGES/22.jpg);
+    height: 300px;
+}
