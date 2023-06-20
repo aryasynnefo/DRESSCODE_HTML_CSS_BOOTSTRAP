@@ -29,13 +29,29 @@
     color: white;
     border: 1px white dotted;
     border-radius: 50px;
+    padding-left: 10px;
 }
 
 /* search icon */
-/* .sb{
+.sb{
     padding: 10px;
     
-} */
+}
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    padding: 10px;
+}
 
 
 /* clothes */
@@ -121,7 +137,9 @@
     height: 300px;
     border-radius: 10px;
 }
- 
+.asd{
+    text-align: right ;
+}
 .shirts{
     background-color: whitesmoke;
 }
@@ -255,15 +273,17 @@
 }
 
 
-@media(min-width:300px) and (max-width:766.98px){
+@media(min-width:400px) and (max-width:766.98px){
 
 
     .home_img{
+        background-color: aqua;
         background-image: url(../IMAGES/new\ dark\ wmns.jpg);
         background-size: cover;
         background-attachment: fixed;
-        height:800px;
-        width: 100%;
+        background-position:start;
+        height:570px;
+        /* width: 100%; */
         letter-spacing: 1px;
     }
 
@@ -271,11 +291,37 @@
         display: none;
     }
 
-    .div1{
-
-       font-size:50px;
-       letter-spacing: 1px;
-    }
+    .a{
+        width:30px;
+        height: auto;
+    }   
     
+
+    .search{
+        background: transparent;
+        color: white;
+        border: 1px white dotted;
+        border-radius: 50px;
+        padding-left: 10px;
+      
+    }
+
+
+    
+/* banner(specialsale)- */
+.image1{
+    background-image: url(../IMAGES/mens\ new.png);
+    background-size: cover;
+    background-attachment: fixed;
+    width:100%;
+   height: 600px;
    
 }
+    .qwerty{
+        text-align: center;
+    }
+   
+}
+
+
+
