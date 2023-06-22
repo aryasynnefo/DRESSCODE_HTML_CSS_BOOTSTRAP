@@ -1,5 +1,7 @@
 
- 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Rufina:wght@700&family=Saira+Condensed:wght@100&display=swap');
+
 
 
 
@@ -24,6 +26,7 @@
 .a1{
     margin-right: 50px;
     font-size: 12px;
+    font-family: 'Rufina', serif;
 }
 .nav-bar{
     text-align: center;
@@ -65,6 +68,7 @@
 .div1{
     font-size:50px;
     letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .b1{
@@ -79,6 +83,7 @@
     border-radius: 2px;
     margin-top: 30px;
     border-radius: 20px;
+    font-family: 'Rufina', serif;
 
 }
 
@@ -93,6 +98,7 @@
     border:1px white solid;
     border-radius: 2px;
     border-radius: 20px;
+    font-family: 'Rufina', serif;
 }
 
 .b1:hover , .b2:hover{
@@ -101,8 +107,14 @@
 
 
 
+.shome{
+    font-family: 'Roboto', sans-serif;
+  
+}
 
-
+.spara{
+    font-family: 'Saira Condensed', sans-serif;
+}
 
 
 /* banner(specialsale)- */
@@ -121,11 +133,13 @@
 
 .head1{
     font-size: 100px;
+    font-family: 'Roboto', sans-serif;
 
 }
 
 .para{
     font-size: 20px;
+    font-family: 'Saira Condensed', sans-serif;
 }
 
 .rimg{
@@ -275,6 +289,7 @@
 .buttons{
     padding: 10px;
     letter-spacing: 1px;
+    font-family: 'Rufina', serif;
 }
 
 .bt{
@@ -283,19 +298,28 @@
 
 
 /* signin */
-.signin{
+/* .signin{
     background-image: url(../IMAGES/cap.jpg);
     background-size: cover;
     background-attachment: fixed;
     height:600px;
     width: 100%;
-}
+} */
 
 .signform{
     text-align: center;
     padding-top: 250px;
   
 }
+
+
+
+
+
+
+
+
+
 
 
 @media(min-width:400px) and (max-width:766.98px){
@@ -316,6 +340,10 @@
         display: none;
     }
 
+    .nav_heads{
+        display: none;
+    }
+
     .a{
         width:30px;
         height: auto;
@@ -331,6 +359,9 @@
       
     }
 
+    .buttons{
+        padding: 2px;
+    }
 
     
 /* banner(specialsale)- */
@@ -346,6 +377,10 @@
         text-align: center;
     }
    
+
+    .caro_img{
+        height: 500px;
+    }
 }
 
 
