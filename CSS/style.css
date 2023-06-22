@@ -1,4 +1,11 @@
 
+ 
+
+
+
+
+
+
 /* navbar and image */
 .home_img{
     background-image: url(../IMAGES/new\ dark\ wmns.jpg);
@@ -144,6 +151,8 @@
     background-color: whitesmoke;
 }
 
+
+
 /* carousel */
 .rimg{
     border-image: round; 
@@ -181,6 +190,9 @@
     padding: 20px;
 }
 
+.bt{
+    letter-spacing: 2px;
+}
 .an{
     text-decoration: none;
     margin-right: 30px;
@@ -203,7 +215,7 @@
 }
 
 .about{
-    background-image: url(../IMAGES/ab);
+    background-image: url(../IMAGES/about.jpg);
     background-size: cover;
     background-attachment: fixed;
     height: 400px;
@@ -241,15 +253,28 @@
 .simg{
     width: 250px;
     height: 300px;
-    border-radius: 5px;
+    border-radius: 1px;
 }
 
 .shirt{
     padding-left: 60px;
+
+}
+
+.c1{
+    margin-left: 60px;
+    
+}
+
+.bg{
+    background-color: black;
+   
+  
 }
 
 .buttons{
-    padding: 2px;
+    padding: 10px;
+    letter-spacing: 1px;
 }
 
 .bt{
