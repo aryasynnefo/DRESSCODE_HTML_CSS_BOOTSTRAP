@@ -154,8 +154,8 @@
 
 
 .img1{
-    width: 500px;
-    height: 300px;
+    width: 100%;
+    height: auto;
     border-radius: 10px;
 }
 .asd{
@@ -336,6 +336,75 @@
         letter-spacing: 1px;
     }
 
+
+    .div1{
+        font-size:40px;
+        letter-spacing: 1px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .cp{
+        padding: 0px;
+        text-align: justify;
+    }
+
+    .div2{
+        padding: 0px;
+        padding-top: 50px;
+    }
+        .head1{
+            font-size: 50px;
+            padding-top: 30px;
+            
+        }
+
+
+    } 
+
+
+    .nav-bar{
+        text-align: center;
+        padding: 0px;
+        padding-top: 180px;
+    }
+    
+
+    .b1{
+        margin-right: 0px;
+        letter-spacing: 2px;
+        width: 180px;
+        padding: 10px;
+        text-align: center;
+        color:white;
+        background: transparent;
+        border: 1px white solid;
+        border-radius: 2px;
+        margin-top: 30px;
+        border-radius: 20px;
+        font-family: 'Rufina', serif;
+    
+    }
+    
+    .b2{
+        margin-left: 10px;
+        letter-spacing: 2px;
+        width: 180px;
+        padding: 10px;
+        text-align: center;
+        color:white;
+        background:transparent;
+        border:1px white solid;
+        border-radius: 2px;
+        border-radius: 20px;
+        font-family: 'Rufina', serif;
+    }
+    
+    .b1:hover , .b2:hover{
+        background-color:darkolivegreen;    
+    }   
+    
+    
+
+
     .a1{
         display: none;
     }
@@ -370,7 +439,7 @@
     background-size: cover;
     background-attachment: fixed;
     width:100%;
-   height: 600px;
+   height: 300px;
    
 }
     .qwerty{
