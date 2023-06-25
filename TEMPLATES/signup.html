@@ -37,15 +37,16 @@
           <div class="row g-3 p-5 ">
             <div class="col-md-6">
               <label for="name" class="form-label">First Name</label>
-              <input type="name" class="form-control" id="name">
+              <input type="name" class="form-control" id="fname">
             </div>
             <div class="col-md-6">
               <label for="name" class="form-label">Last Name</label>
-              <input type="name" class="form-control" id="name">
+              <input type="name" class="form-control" id="lname">
+              
             </div>
             <div class="col-md-6">
                 <label for="name" class="form-label">User Name</label>
-                <input type="name" class="form-control" id="name">
+                <input type="name" class="form-control" id="user name">
             </div>
             <div class="col-md-6">
                 <label for="inputEmail4" class="form-label">Email</label>
@@ -114,6 +115,16 @@
           </form>
     </div>
 
+
+    <script>
+      var user=document.getElementById("user name").value;
+      var pswd=document.getElementById("inputPassword4").value;
+      if(user==username || pswd==password){
+        alert("field must not be empty")
+      }
+
+      
+    </script>
 
 
 
