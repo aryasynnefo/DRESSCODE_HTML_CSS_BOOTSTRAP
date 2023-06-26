@@ -358,7 +358,7 @@
         }
 
 
-    } 
+    
 
 
     .nav-bar{
@@ -450,7 +450,19 @@
     .caro_img{
         height: 500px;
     }
+
+    .buttons{
+        padding: 10px;
+        letter-spacing: 1px;
+        font-family: 'Rufina', serif;
+    }
+    
+    .img1{
+        padding: 10px;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
 }
-
-
 
