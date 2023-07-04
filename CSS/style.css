@@ -464,5 +464,21 @@
         border-radius: 10px;
     }
 
+
+    .upimg{
+        background-image: url(../IMAGES/signup.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100%;
+    }
+
+
+    .rimg{
+        border-image: round; 
+        border-radius: 100px;
+        height: 100px;
+        width: 80px;
+    }
+    
 }
 
