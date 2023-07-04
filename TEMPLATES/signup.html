@@ -36,16 +36,16 @@
         <form>
           <div class="row g-3 p-5 ">
             <div class="col-md-6">
-              <label for="name" class="form-label">First Name</label>
+              <label for="fname" class="form-label">First Name</label>
               <input type="name" class="form-control" id="fname">
             </div>
             <div class="col-md-6">
-              <label for="name" class="form-label">Last Name</label>
+              <label for="lname" class="form-label">Last Name</label>
               <input type="name" class="form-control" id="lname">
               
             </div>
             <div class="col-md-6">
-                <label for="name" class="form-label">User Name</label>
+                <label for="user name" class="form-label">User Name</label>
                 <input type="name" class="form-control" id="user name">
             </div>
             <div class="col-md-6">
@@ -109,7 +109,7 @@
                 <label class="form-check-label" for="flexCheckChecked">Normal</label>
               </div>
             <div class="col-12 text-center">
-              <a href="signin.html"><button type="submit" class="btn btn-primary"> Sign up</button></a>
+              <a href="signin.html"><button onclick="abc()" class="btn btn-primary"> Sign up</button></a>
             </div>
         </div>
           </form>
@@ -117,10 +117,38 @@
 
 
     <script>
-      var user=document.getElementById("user name").value;
-      var pswd=document.getElementById("inputPassword4").value;
-      if(user==username || pswd==password){
-        alert("field must not be empty")
+      function abc(){
+        var a=document.getElementById("fname").value;
+        var b=document.getElementById("lname").value;
+        var c=document.getElementById("user name").value;
+        var d=document.getElementById("inputEmail4").value;
+        var e=document.getElementById("inputPassword4").value;
+        var f=document.getElementById("inputAddress").value
+       
+        if(a==""){
+          alert("firstname must not be empty");
+        }
+
+        if(b==""){
+          alert("lastname must not be empty");
+        }
+
+        if(c==""){
+          alert("username is empty!!")
+        }
+
+        if(d==""){
+          alert("Please enter your email")
+        }
+
+        if(e.length<8){
+          alert("Password must contain above  8 characters")
+        }
+
+        if(f==""){
+          alert("Address is mandatory")
+        }
+
       }
 
       
